@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  QRCode
+//  demo1
 //
-//  Created by li on 16/6/18.
+//  Created by li on 16/5/10.
 //  Copyright © 2016年 li. All rights reserved.
 //
 

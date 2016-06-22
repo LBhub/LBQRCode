@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  QRCode
+//  demo1
 //
-//  Created by li on 16/6/18.
+//  Created by li on 16/6/20.
 //  Copyright © 2016年 li. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-

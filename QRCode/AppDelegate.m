@@ -1,13 +1,14 @@
 //
 //  AppDelegate.m
-//  QRCode
+//  demo1
 //
-//  Created by li on 16/6/18.
+//  Created by li on 16/5/10.
 //  Copyright © 2016年 li. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "QRCodeViewController.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ViewController *vc =[ViewController new];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    [self.window makeKeyWindow];
+    
     return YES;
 }
 
